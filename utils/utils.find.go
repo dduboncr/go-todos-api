@@ -5,7 +5,6 @@ import (
 	"reflect"
 )
 
-// generic find method
 func Find(slice interface{}, predicate func(interface{}) bool) (interface{}, int) {
 	s := reflect.ValueOf(slice)
 
